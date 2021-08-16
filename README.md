@@ -58,6 +58,12 @@ To use this project,
 - clone this repo on your device using the command `git clone`
 - `cd` into the `growing-me` folder
 - Run `npm install` to install dependencies
+- Create a `.env` file in the root folder. It should contain the following:
+```
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_anon_key
+```
+- To get your Supabase URL, create an account on [https://supabase.io/](https://supabase.io/), create a new project, then go to "Settings", "API" and then the URL field under "Config". The anon key is on the same page, under "Project API keys".
 - Run `npm run dev` to run the app
 
 # Footer
